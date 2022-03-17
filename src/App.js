@@ -6,6 +6,12 @@ import SideBar from './components/utils/Sidebar/Sidebar';
 import Products from './components/pages/Products/Products';
 import Header from './components/utils/Header/Header';
 import AllProducts from './components/pages/AllProducts/AllProducts';
+import AllUsers from './components/pages/AllUsers/AllUsers';
+import LastProduct from './components/pages/LastProduct/LastProduct';
+import LastUser from './components/pages/LastUser/LastUser';
+
+
+
 
 
 function App() {
@@ -17,9 +23,9 @@ function App() {
         <Routes>
           <Route path='/' exact="true" element={<Products/>} />
           <Route path='/products' element={<AllProducts/>}/>
-          <Route path='/users' element={<Products/>}/>
-          <Route path='/lastProduct' element={<Products/>}/>
-          <Route path='/lastUser' element={<Products/>}/>
+          <Route path='/users' element={<AllUsers />}/>
+          <Route path='/lastProduct' element={<LastProduct/>}/>
+          <Route path='/lastUser' element={<LastUser/>}/>
         </Routes>
       </div>
       <Footer />

@@ -9,6 +9,13 @@
 @import "./components/utils/Header/header.scss";
 @import "./components/pages/Products/products.scss";
 @import "./components/pages/AllProducts/allProducts.scss";
+@import "./components/pages/AllUsers/allUsers.scss";
+@import "./components/pages/LastProduct/lastProduct.scss";
+@import "./components/pages/LastUser/lastUser.scss";
+@import "./components/pages/ProductId/productId.scss";
+@import "./components/pages/UserId/userId.scss";
+
+
 
 .App {
     background: url(https://res.cloudinary.com/dmaiqkpom/image/upload/v1646251593/fondo-admin30_oe80rt.png);

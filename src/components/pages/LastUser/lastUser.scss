@@ -1,0 +1,200 @@
+/** -------------------------------- LAST USER ------------------------------- **/
+
+.last-user-container {
+    width: 100vw;
+    height: 100vh;
+    background: url(https://res.cloudinary.com/dmaiqkpom/image/upload/v1646251593/fondo-admin30_oe80rt.png);
+    background-size: repeat;
+}
+
+.last-user-title {
+    background: #fff;
+    width: 100%;
+}
+
+.last-user-title h1 {
+    font-family: 'aArigatouGozaimasu';
+    font-size: 60px;
+    color: #515372;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.last-user-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100vw;
+}
+
+.last-user-articles {
+    width: 40vw;
+}
+
+.last-user-main-articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #5153722e;
+    box-shadow: 9px 9px 20px -3px rgb(0 0 0 / 32%);
+    padding-top: 10px;
+    width: 50%;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.last-user-main-articles img {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.last-user-main-articles img:hover {
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0px 8px 6px 1px rgb(0 0 0 / 10%);
+}
+
+.last-user-article-username p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #515372;
+    font-family: 'Poppins';
+}
+
+.last-user-article-username label {
+    font-family: 'Poppins';
+    color: #777;
+}
+
+.last-user-article-email label {
+    font-family: 'Poppins';
+    color: #777;
+}
+
+.last-user-article-email p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #515372;
+    font-family: 'Poppins';
+}
+
+
+/** -------------------------------- ALL USERS ------------------------------- **/
+
+.all-users-container {
+    width: 100vw;
+    height: 84vh;
+    background: url(https://res.cloudinary.com/dmaiqkpom/image/upload/v1646251593/fondo-admin30_oe80rt.png);
+    background-size: repeat;
+}
+
+.all-users-title {
+    background: #fff;
+    width: 100%;
+}
+
+.all-users-title h1 {
+    font-family: 'aArigatouGozaimasu';
+    font-size: 60px;
+    color: #515372;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.all-users-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.all-users-articles {
+    width: 40vw;
+}
+
+.all-users-main-articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #5153722e;
+    box-shadow: 9px 9px 20px -3px rgb(0 0 0 / 32%);
+    padding-top: 10px;
+    width: 50%;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.all-users-main-articles img {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.all-users-main-articles img:hover {
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0px 8px 6px 1px rgb(0 0 0 / 10%);
+}
+
+.all-users-article-username p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #515372;
+    font-family: 'Poppins';
+}
+
+.all-users-article-username label {
+    font-family: 'Poppins';
+    color: #777;
+}
+
+.all-users-article-email label {
+    font-family: 'Poppins';
+    color: #777;
+}
+
+.all-users-article-email p {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #515372;
+    font-family: 'Poppins';
+}
