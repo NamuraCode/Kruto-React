@@ -1,0 +1,30 @@
+/** --------------------------------- HEADER --------------------------------- **/
+.header{
+    max-width: 100vw;
+    background: #515372;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 13%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-title {
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.header-slash {
+    font-size: 60px;
+    color: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}

@@ -1,38 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: "aArigatouGozaimasu";
+    src: url(./assets/fonts/aArigatouGozaimasu.ttf);
+}
+@import "./components/utils/Sidebar/sidebar.scss";
+@import "./components/utils/Footer/footer.scss";
+@import "./components/utils/Header/header.scss";
+@import "./components/pages/Products/products.scss";
+@import "./components/pages/AllProducts/allProducts.scss";
+
 .App {
-  text-align: center;
+    background: url(https://res.cloudinary.com/dmaiqkpom/image/upload/v1646251593/fondo-admin30_oe80rt.png);
+    background-size: repeat;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home{
+    display: flex;
+    flex-direction: row;
 }

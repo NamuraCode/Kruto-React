@@ -1,0 +1,71 @@
+/** -------------------------------- SIDE BAR -------------------------------- **/
+
+.sidebar-container {
+    width: 15vw;
+    background: #515372;
+}
+
+.sidebar-title {
+    font-family: 'aArigatouGozaimasu';
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-top: 30px;
+    margin: 12px;
+}
+
+.sidebar-square {
+    border-bottom: 1px solid #8f92c2;
+    margin-right: 40px;
+}
+
+.sidebar-square a{
+    text-decoration: none;
+}
+
+.sidebar-list .sidebar-square li{
+    transition: all .1s ease-in-out;
+}
+
+.sidebar-list .sidebar-square:hover li{
+    transform: scale(1.2);
+}
+
+.sidebar-line {
+    height: 8px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.sidebar-line::before{
+    content: "";
+    width: 227px;
+    height: 7px;
+    background: white;
+    z-index: 10;
+    position: absolute;
+    top: -91px;
+}
+
+.fas {
+    font-size: 35px;
+    color: #fff;
+}
+
+.sidebar-option {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-option p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.sidebar-list {
+    list-style: none;
+}
